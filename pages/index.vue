@@ -27,6 +27,7 @@ useHead({
       <Title>{{ title }}</Title>
     </Head>
     <Meta name="description" :content="description" />
+    <NuxtLink to="/about">跳转到/about</NuxtLink>
     Counter:{{ counter }}
     <p>Current color:{{ color }}</p>
     <button @click="counter++">+</button>
